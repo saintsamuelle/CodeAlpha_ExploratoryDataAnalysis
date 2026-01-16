@@ -1,84 +1,81 @@
-# Project 2: Exploratory Data Analysis (EDA)
+# 📊 Student Performance Exploratory Data Analysis (EDA)
 
-## 📊 Overview
-Exploratory Data Analysis (EDA) is a critical step in the data analytics workflow. This project aims to explore, understand, and analyze a dataset to uncover hidden patterns, trends, relationships, and potential data quality issues before applying advanced analytics or machine learning models.
+## 📌 Project Overview
+This project performs an Exploratory Data Analysis (EDA) on a student performance dataset to uncover patterns, trends, and relationships between academic performance and behavioral factors such as study hours and attendance.
+
+The goal of this analysis is to demonstrate data cleaning, exploration, visualization, and insight generation using Python.
 
 This project was completed as part of the **CodeAlpha Data Analytics Virtual Internship**.
 
 ---
 
-## 🎯 Objectives
-The main goals of this project are to:
-- Understand the structure and nature of the dataset
-- Ask meaningful analytical questions before analysis
-- Identify trends, patterns, and anomalies
-- Validate assumptions using statistics and visualizations
-- Detect missing values, outliers, and data inconsistencies
-- Prepare insights to guide further analysis or modeling
+## 📂 Dataset Description
+The dataset contains **200 student records** with the following attributes:
+
+| Column | Description |
+|------|------------|
+| Student_ID | Unique identifier for each student |
+| Gender | Gender of the student |
+| Age | Age of the student |
+| Study_Hours_Per_Week | Weekly study hours |
+| Attendance_Percentage | Attendance rate |
+| Math_Score | Mathematics exam score |
+| Science_Score | Science exam score |
+| English_Score | English exam score |
+| Internet_Access | Internet availability (Yes/No) |
+| Extra_Curricular | Participation in extracurricular activities |
 
 ---
 
-## ❓ Key Questions Asked Before Analysis
-- What variables are present in the dataset?
-- What data types do the variables have?
-- Are there missing or inconsistent values?
-- How are numerical variables distributed?
-- Are there relationships or correlations between variables?
-- Are there outliers or unusual patterns in the data?
+## ❓ Key Questions Explored
+- Does study time affect academic performance?
+- How does attendance influence exam scores?
+- Is there a relationship between study hours and subject performance?
+- Are there correlations among different subject scores?
 
 ---
 
-## 🧰 Tools & Technologies Used
+## 🛠 Tools & Technologies Used
 - **Python**
-- **Pandas** – Data manipulation and analysis
-- **Matplotlib** – Data visualization
-- **Seaborn** – Statistical visualizations
-- **NumPy** – Numerical operations
+- **Pandas** – data manipulation
+- **Matplotlib** – data visualization
+- **Seaborn** – statistical visualizations
+- **Jupyter Notebook**
 
 ---
 
-## 🔍 Steps Performed in EDA
-1. **Data Loading**
-   - Imported the dataset using Pandas
-
-2. **Data Inspection**
-   - Viewed dataset shape, columns, and sample records
-   - Checked data types and summary statistics
-
-3. **Data Cleaning**
-   - Identified and handled missing values
-   - Detected duplicates and inconsistencies
-
-4. **Univariate Analysis**
-   - Distribution analysis using histograms and box plots
-   - Summary statistics (mean, median, standard deviation)
-
-5. **Bivariate & Multivariate Analysis**
-   - Correlation analysis
-   - Scatter plots and heatmaps
-   - Relationship exploration between variables
-
-6. **Outlier Detection**
-   - Box plots and statistical techniques
-
-7. **Insights & Findings**
-   - Key trends, anomalies, and patterns documented
+## 📊 Exploratory Data Analysis Steps
+1. Data loading and inspection  
+2. Data quality checks (missing values & data types)  
+3. Univariate analysis (distributions and boxplots)  
+4. Bivariate analysis (scatter plots)  
+5. Correlation analysis (heatmap)  
+6. Insight generation  
 
 ---
 
-## 📈 Visualizations Included
-- Histograms
-- Box plots
-- Bar charts
-- Scatter plots
-- Correlation heatmaps
+## 📈 Visualizations Generated
+#### 1️⃣ Distribution of Study Hours
+![Study Hours Distribution](images/study_hours_distribution.png)
+
+#### 2️⃣ Average Scores by Subject
+![Average Scores](images/average_scores.png)
+
+#### 3️⃣ Gender Distribution
+![Gender Distribution](images/gender_distribution.png)
+
+#### 4️⃣ Attendance vs Performance
+![Attendance vs Performance](images/attendance_vs_performance.png)
+
+> 📌 *All visualizations were created using Matplotlib and Seaborn.*
 
 ---
 
-## 💡 Key Insights
-- Identified important trends and data distributions
-- Detected anomalies and potential data quality issues
-- Observed relationships between key variables
-- Gained insights that can guide predictive modeling or business decisions
+## 🔍 Key Insights
+- Students who study more hours per week tend to perform better academically.
+- Attendance percentage shows a positive relationship with exam scores.
+- Math and Science scores are moderately correlated.
+- The dataset contains no missing values, making it suitable for analysis.
 
 ---
+
