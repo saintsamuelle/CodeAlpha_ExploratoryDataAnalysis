@@ -56,7 +56,7 @@ The dataset contains **200 student records** with the following attributes:
 
 ## 📈 Visualizations Generated
 #### 1️⃣ Distribution of Study Hours
-![Study Hours Distribution](images/study_hours_distribution.png)
+![Study Hours Distribution](visualizations/study_hours_distribution.png)
 
 #### 2️⃣ Average Scores by Subject
 ![Average Scores](images/average_scores.png)
