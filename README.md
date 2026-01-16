@@ -54,18 +54,59 @@ The dataset contains **200 student records** with the following attributes:
 
 ---
 
-## 📈 Visualizations Generated
-#### 1️⃣ Distribution of Study Hours
-![Study Hours Distribution](visualizations/study_hours_distribution.png)
+## 📈 Visualizations & Insights
 
-#### 2️⃣ Average Scores by Subject
-![Average Scores](images/average_scores.png)
+All visualizations are automatically saved in the `visualizations/` folder.
 
-#### 3️⃣ Gender Distribution
-![Gender Distribution](images/gender_distribution.png)
+---
 
-#### 4️⃣ Attendance vs Performance
-![Attendance vs Performance](images/attendance_vs_performance.png)
+### 📊 Distribution of Study Hours
+Shows how many hours students spend studying per week.
+
+![Study Hours Distribution](visualizations/study_hours_bar_chart.png)
+
+**Insight:**  
+Most students study within a moderate range, indicating balanced study habits.
+
+---
+
+### 📦 Math Score Distribution
+A boxplot showing the spread and variability of math scores.
+
+![Math Score Distribution](visualizations/math_score_boxplot.png)
+
+**Insight:**  
+Math scores show reasonable variation with no extreme outliers.
+
+---
+
+### 📈 Study Hours vs Math Score
+Explores the relationship between study time and math performance.
+
+![Study Hours vs Math Score](visualizations/study_hours_vs_math_score.png)
+
+**Insight:**  
+Students who study more tend to score higher in mathematics.
+
+---
+
+### 📉 Attendance vs Science Score
+Analyzes how attendance affects science performance.
+
+![Attendance vs Science Score](visualizations/attendance_vs_science_score.png)
+
+**Insight:**  
+Higher attendance is generally associated with better science scores.
+
+---
+
+### 🔥 Correlation Heatmap
+Shows correlations between numerical variables in the dataset.
+
+![Correlation Heatmap](visualizations/correlation_heatmap.png)
+
+**Insight:**  
+Study hours and attendance show positive correlations with academic scores.
 
 > 📌 *All visualizations were created using Matplotlib and Seaborn.*
 
